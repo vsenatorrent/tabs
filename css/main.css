@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+ul > li {
+  list-style-type: none; }
+
+section {
+  margin: 0 auto;
+  width: 70%; }
+  section .left {
+    width: 30%;
+    height: 100vh;
+    display: inline-block;
+    background-color: #ddd;
+    vertical-align: top;
+    margin-right: -4px;
+    padding: 15px; }
+  section .right {
+    width: 69%;
+    height: 100vh;
+    display: inline-block;
+    background-color: #fff3b5;
+    padding: 15px; }
+    section .right h1 {
+      margin-bottom: 10px; }
+    section .right .opt1,
+    section .right .opt2,
+    section .right .opt3 {
+      display: none; }
+
+.show {
+  display: block !important; }
+
+/*# sourceMappingURL=main.css.map */
